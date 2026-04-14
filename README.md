@@ -57,6 +57,26 @@ This project analyzes an Amazon sales dataset using SQL (BigQuery) and visualize
 
 ---
 
+## 🔄 ETL Workflow
+
+**Extract:**
+
+* Loaded raw sales data from CSV dataset into BigQuery.
+
+**Transform:**
+
+* Cleaned and aggregated data using SQL queries (revenue, growth, ranking, window functions).
+* Created derived metrics such as monthly revenue, cumulative revenue, and growth percentage.
+
+**Load:**
+
+* Connected transformed data to Power BI.
+* Built interactive dashboards for visualization and business insights.
+
+**Workflow Summary:**
+CSV Data → BigQuery (SQL Processing) → Power BI Dashboard
+
+
 ## 📁 Project Files
 
 * `monthly revenue.sql`
