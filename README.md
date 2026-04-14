@@ -59,18 +59,49 @@ This project analyzes an Amazon sales dataset using SQL (BigQuery) and visualize
 
 ## 📁 Project Files
 
-* SQL Queries:
+* `monthly revenue.sql`
+  Calculates total revenue grouped by month.
+  Used to analyze overall revenue trends over time.
 
-  * `monthly revenue.sql`
-  * `Daily revenue.sql`
-  * `month over month growth.sql`
-  * `running total.sql`
-  * `Product Ranking.sql`
-  * `Top products.sql`
-  * `Top 3 ranked products per month.sql`
-  * `Region Revenue.sql`
-  * `Payment Method.sql`
-  * `Discount impact.sql`
+* `Daily revenue.sql`
+  Computes total revenue for each day.
+  Helps identify peak sales days and short-term patterns.
+
+* `month over month growth.sql`
+  Calculates revenue growth percentage using LAG().
+  Shows how revenue changes month-to-month.
+
+* `running total.sql`
+  Computes cumulative revenue using a window function.
+  Useful for tracking overall growth progression.
+
+* `Product Ranking.sql`
+  Ranks products based on total revenue using RANK().
+  Identifies best-performing products.
+
+* `Top products.sql`
+  Retrieves top 10 products by revenue.
+  Helps focus on high-performing items.
+
+* `Top 3 ranked products per month.sql`
+  Finds top 3 products per month (including ties).
+  Useful for monthly performance comparison.
+
+* `Region Revenue.sql`
+  Calculates revenue by customer region.
+  Highlights top-performing geographic areas.
+
+* `Payment Method.sql`
+  Groups revenue by payment method.
+  Shows customer payment preferences.
+
+* `Discount impact.sql`
+  Analyzes average revenue by discount percentage.
+  Helps understand how discounts affect sales.
+
+* `Sales and Revenue analysis.pbix`
+  Power BI dashboard file with visual insights.
+  Displays trends, rankings, and key metrics.
 
 * Power BI:
 
